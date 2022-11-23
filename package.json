@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A collection of general-purpose TypeScript utilities",
   "main": "dist/index.js",
-  "module": "dist/index.mjs"
+  "module": "dist/index.mjs",
   "type": "module",
   "files": [
     "dist/*"
