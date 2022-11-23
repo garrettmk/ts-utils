@@ -1,0 +1,41 @@
+{
+  "name": "@garrettmk/ts-utils",
+  "version": "0.0.1",
+  "description": "A collection of general-purpose TypeScript utilities",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs"
+  "type": "module",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config",
+    "publish": "npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettmk/ts-utils.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "utility"
+  ],
+  "author": "Garrett Myrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garrettmk/ts-utils/issues"
+  },
+  "homepage": "https://github.com/garrettmk/ts-utils#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.4.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "tslib": "^2.4.1",
+    "typedoc": "^0.23.21",
+    "typescript": "^4.9.3"
+  }
+}
