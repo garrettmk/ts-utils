@@ -4,3 +4,6 @@ export * from './lib/get-prototype-chain';
 export * from './lib/list-of';
 export * from './lib/merge';
 export * from './lib/types';
+export * from './lib/enum-values';
+export * from './lib/is-constructor';
+export * from './lib/does-extend';

@@ -4,7 +4,6 @@
   "description": "A collection of general-purpose TypeScript utilities",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "type": "module",
   "files": [
     "dist/*"
   ],
@@ -28,12 +27,15 @@
   },
   "homepage": "https://github.com/garrettmk/ts-utils#readme",
   "devDependencies": {
+    "@types/jest": "^29.2.3",
+    "jest": "^29.3.1",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
     "rollup": "^3.4.0",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-dts": "^5.0.0",
     "rollup-plugin-esbuild": "^5.0.0",
+    "ts-jest": "^29.0.3",
     "tslib": "^2.4.1",
     "typedoc": "^0.23.21",
     "typescript": "^4.9.3"
