@@ -7,3 +7,5 @@ export * from './lib/types';
 export * from './lib/enum-values';
 export * from './lib/is-constructor';
 export * from './lib/does-extend';
+export * from './lib/identity';
+export * from './lib/controlled-promise';
